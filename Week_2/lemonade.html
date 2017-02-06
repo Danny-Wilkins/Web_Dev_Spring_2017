@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A Recipe Website for Good Recipes</title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+    }
+    
+    div {
+        background-color: rgba(255, 165, 0, 0.2);
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    .container {
+        width: 900px;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .header-bar {
+        width: 280px;
+        height: 100px;
+        margin: 10px;
+        float: left;
+    }
+
+    .footer-bar {
+        width: 280px;
+        height: 30px;
+        margin: 10px;
+        float: left;
+    }
+    
+    .thumbnail-image {
+        width: 430px;
+        height: 500px;
+        padding: 5px;
+        margin: 5px;
+        float: left;
+    }
+    
+    .thumbnail-desc {
+        width: 420px;
+        height: 190px;
+        margin: 5px;
+        padding: 5px;
+        /*Apparently this makes a container float to the bottom but it's floating past the bottom a bit?*/
+    }
+    
+    .clear-fix::after {
+        content: ' ';
+        display: block;
+        clear: both;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container clear-fix">
+        <!-- Header bar with website name, browse, and search bar -->
+        <div class="header-bar">
+            <!-- Logo placeholder -->
+            <a href="index.html">
+                <p>I've come up with a new reipeh!</p>
+            </a>
+        </div>
+        <div class="header-bar">
+            <!-- Browse placeholder -->
+            <p>Whatchu want fam?</p>
+        </div>
+        <div class="header-bar">
+            <!-- Search placeholder -->
+            <p>Looking for something?</p>
+        </div>
+    </div>
+    <br></br>
+    <div class="container clear-fix">
+        <div class="thumbnail-image">
+            <div class="thumbnail-desc">
+                <p>Cucumber lemonade is a refreshing drink I cannot recreate for the life of me.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan a urna a auctor. Sed nec tincidunt orci. Nunc laoreet hendrerit risus quis porta. Nunc molestie at magna ut ultrices. Fusce dui mauris, hendrerit vel eros sit amet, elementum mollis lorem. Pellentesque lorem eros, bibendum quis mollis vel, aliquam eu purus. Vivamus scelerisque dictum est. In hac habitasse platea dictumst.</p>
+            </div>
+        </div>
+        <div class="thumbnail-image">
+            <a href="lemonade.html">
+                <img src="img/cucumber-lemonade.jpg" height="250" width="430">
+            </a>
+        </div>
+        <br class="clear"></br>
+    </div>
+    <br></br>
+    <div class="container clear-fix">
+        <h2>Ingedients</h2>
+        <div class="thumbnail-desc">
+            <ul>
+                <li>2 cups hot water</li>
+                <li>1/2 cup white sugar</li>
+                <li>Market Pantry Granulated Sugar - 4lbs</li>
+                <li>1/2 cup lemon juice from concentrate 1 lemon, juiced</li>
+                <li>1/2 large cucumber, sliced</li>
+            </ul>
+        </div>
+        <br class="clear"></br>
+    </div>
+    <br></br>
+    <div class="container clear-fix">
+        <h2>Directions</h2>
+        <div class="thumbnail-desc">
+            <ol>
+                <li>Stir hot water and sugar together in a large pitcher until sugar is dissolved. Stir in lemon juice concentrate, lemon juice, and sliced cucumbers. Refrigerate for 30 minutes or until ready to serve.</li>
+                <li>Pour lemon-lime soda into pitcher. Serve lemonade over ice and garnished with lemon slices and halved cucumber slices.</li>
+            </ol>
+        </div>
+        <br class="clear"></br>
+    </div>
+    <br></br>
+    <div class="container clear-fix">
+        <div class="footer-bar">
+            <a href="about.html">
+                <p>About Us</p>
+            </a>
+        </div>
+        <div class="footer-bar">
+            <a href="contact.html">
+                <p>Contact Us</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
