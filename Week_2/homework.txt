@@ -1,2 +1,65 @@
 Basically sketch out your website, know what it needs to do and come up with some ideas on how to accomplish it. While you're making the website, get input from the people who will be using it, the other people involved in the dev process, etc. Use the best tools for for the job. Do a good job.
 Sounds easy enough. Just don't lone wolf and end up making a terrible website that doesn't solve the problem and nobody wants to use. 
+
+Analyzing site map of allrecipes.com:
+
+Organized
+
+	By Meal
+		• Appetizers & Snacks
+		• Bread Recipes
+		• Breakfast and Brunch
+		• Casserole Recipes
+		• Dessert Recipes
+		• Cake Recipes
+		• Pie Recipes
+		• Cookie Recipes
+		• Dinner Recipes
+		• Drink Recipes
+		• Cocktail Recipes
+		• Smoothie Recipes
+		• Lunch Recipes
+		• Main Dishes
+		• Pasta Recipes
+		• Mac and Cheese Recipes
+		• Salad Recipes
+		• Pasta Salad Recipes
+		• Sauces and Condiments
+		• Side Dishes
+		• Soups, Stew, and Chili Recipes
+
+	By Main Ingredient
+		• Beef Recipes
+		• Chicken Recipes
+		• Pork Recipes
+		• Seafood and Fish Recipes
+		• Turkey Recipes
+		• Vegetable Recipes
+
+	By Audience
+		• Gourmet
+		• Healthy Recipes
+		• Kids’ Recipes
+		• Quick and Easy Recipes
+		• Vegan Recipes
+		• Vegetarian 
+
+	By Cooking Method
+		• BBQ and Grilling Recipes
+		• Crock Pot/Slow Cooker Recipes
+
+	By Cuisine
+		• Asian Recipes
+		• Cajun/Creole Recipes
+		• French Recipes
+		• German Recipes
+		• Indian Recipes
+		• Italian Recipes
+		• Mexican Recipes
+		• Middle Eastern Recipes
+		• Southern Cooking
+		• More World Cuisine
+
+Etc.
+
+It has a shop, login stuff, an about us, a place for recipe submissions.
