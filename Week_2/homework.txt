@@ -1,0 +1,2 @@
+Basically sketch out your website, know what it needs to do and come up with some ideas on how to accomplish it. While you're making the website, get input from the people who will be using it, the other people involved in the dev process, etc. Use the best tools for for the job. Do a good job.
+Sounds easy enough. Just don't lone wolf and end up making a terrible website that doesn't solve the problem and nobody wants to use. 
