@@ -23,6 +23,80 @@
         text-align: justify;
     }
     
+    header ul {
+        /*Remove bullet points*/
+        list-style-type: none;
+        overflow: hidden;
+        padding: 10px;
+        /*background-color: rgba(255, 165, 0, 1.0);*/
+        font-size: 0px;
+    }
+    
+    header li {
+        display: inline-block;
+        background-color: rgba(255, 165, 0, 1.0);
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    header li a {
+        /*Make sure link's clickable area is larger than just the text like a button*/
+        display: block;
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+        /*Remove underline on links and link color*/
+        text-decoration: none;
+        color: #333;
+    }
+    
+    header li a.active {
+        background-color: #99001C;
+        color: white;
+    }
+    
+    header li a:hover {
+        background-color: #99001C;
+        color: white;
+    }
+    
+    footer ul {
+        /*Remove bullet points*/
+        list-style-type: none;
+        overflow: hidden;
+        padding: 10px;
+        /*background-color: rgba(255, 165, 0, 1.0);*/
+        font-size: 0px;
+    }
+    
+    footer li {
+        display: inline-block;
+        background-color: rgba(255, 165, 0, 1.0);
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    footer li a {
+        /*Make sure link's clickable area is larger than just the text like a button*/
+        display: block;
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+        /*Remove underline on links and link color*/
+        text-decoration: none;
+        color: #333;
+    }
+    
+    footer li a.active {
+        background-color: #99001C;
+        color: white;
+    }
+    
+    footer li a:hover {
+        background-color: #99001C;
+        color: white;
+    }
+    
     .container {
         width: 900px;
         margin: 0 auto;
@@ -36,7 +110,7 @@
         margin: 10px;
         float: left;
     }
-
+    
     .footer-bar {
         width: 280px;
         height: 30px;
@@ -61,6 +135,35 @@
         bottom: 0;
     }
     
+    .sidebar{
+        width: 200px;
+        height: 500px;
+        /*padding: 10px;*/
+        margin: 10px;
+        float: right;
+    }
+
+    .sidebar ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin: 10px;
+        padding: 10px;
+        /*background-color: rgba(255, 165, 0, 1.0);*/
+        text-align: center;
+
+    }
+
+    .sidebar li{
+        background-color: rgba(255, 165, 0, 1.0);
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .sidebar li:hover{
+        background-color: #99001C;
+        color: white;
+    }
+
     .clear-fix::after {
         content: ' ';
         display: block;
@@ -70,21 +173,17 @@
 </head>
 
 <body>
-    <div class="container clear-fix">
-        <!-- Header bar with website name, browse, and search bar -->
-        <div class="header-bar">
-            <!-- Logo placeholder -->
-            <p>I've come up with a new reipeh!</p>
+    <header>
+        <div class="container clear-fix">
+            <!-- Header bar with website name, browse, and search bar -->
+            <ul>
+                <li><a href="index.html" class="active">I've come up with a new recipeh!</a></li>
+                <li><a href="#">Whatchu want fam?</a></li>
+                <li><a href="#">Looking for something?</a></li>
+            </ul>
         </div>
-        <div class="header-bar">
-            <!-- Browse placeholder -->
-            <p>Whatchu want fam?</p>
-        </div>
-        <div class="header-bar">
-            <!-- Search placeholder -->
-            <p>Looking for something?</p>
-        </div>
-    </div>
+    </header>
+    <br>
     <div class="container clear-fix">
         <div class="thumbnail-image">
             <a href="lemonade.html">
@@ -94,24 +193,24 @@
                 <p>Click that picture for some sweet food.</p>
             </div>
         </div>
-        <div class="thumbnail-image">
-            <div class="thumbnail-desc"></div>
+        <div class="sidebar">
+            <ul>
+                <li>This is a sidebar.</li>
+                <li>Item</li>
+                <li>Itemmmm</li>
+            </ul>
         </div>
-        <br class="clear"></br>
+        <br class="clear">
     </div>
-    <br></br>
-    <div class="container clear-fix">
-        <div class="footer-bar">
-            <a href="about.html">
-                <p>About Us</p>
-            </a>
+    <br>
+    <footer>
+        <div class="container clear-fix">
+            <ul>
+                <li><a href="about.html">About us!</a></li>
+                <li><a href="contact.html">Contact us!</a></li>
+            </ul>
         </div>
-        <div class="footer-bar">
-            <a href="contact.html">
-                <p>Contact Us</p>
-            </a>
-        </div>
-    </div>
+    </footer>
 </body>
 
 </html>

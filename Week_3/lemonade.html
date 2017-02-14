@@ -23,6 +23,80 @@
         text-align: justify;
     }
     
+    header ul {
+        /*Remove bullet points*/
+        list-style-type: none;
+        overflow: hidden;
+        padding: 10px;
+        /*background-color: rgba(255, 165, 0, 1.0);*/
+        font-size: 0px;
+    }
+    
+    header li {
+        display: inline-block;
+        background-color: rgba(255, 165, 0, 1.0);
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    header li a {
+        /*Make sure link's clickable area is larger than just the text like a button*/
+        display: block;
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+        /*Remove underline on links and link color*/
+        text-decoration: none;
+        color: #333;
+    }
+    
+    header li a.active {
+        background-color: #99001C;
+        color: white;
+    }
+    
+    header li a:hover {
+        background-color: #99001C;
+        color: white;
+    }
+
+    footer ul {
+        /*Remove bullet points*/
+        list-style-type: none;
+        overflow: hidden;
+        padding: 10px;
+        /*background-color: rgba(255, 165, 0, 1.0);*/
+        font-size: 0px;
+    }
+    
+    footer li {
+        display: inline-block;
+        background-color: rgba(255, 165, 0, 1.0);
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    footer li a {
+        /*Make sure link's clickable area is larger than just the text like a button*/
+        display: block;
+        text-align: center;
+        width: 100px;
+        padding: 10px;
+        /*Remove underline on links and link color*/
+        text-decoration: none;
+        color: #333;
+    }
+    
+    footer li a.active {
+        background-color: #99001C;
+        color: white;
+    }
+    
+    footer li a:hover {
+        background-color: #99001C;
+        color: white;
+    }
+    
     .container {
         width: 900px;
         margin: 0 auto;
@@ -36,7 +110,7 @@
         margin: 10px;
         float: left;
     }
-
+    
     .footer-bar {
         width: 280px;
         height: 30px;
@@ -69,27 +143,21 @@
 </head>
 
 <body>
-    <div class="container clear-fix">
-        <!-- Header bar with website name, browse, and search bar -->
-        <div class="header-bar">
-            <!-- Logo placeholder -->
-            <a href="index.html">
-                <p>I've come up with a new reipeh!</p>
-            </a>
+    <header>
+        <div class="container clear-fix">
+            <ul>
+                <li><a href="index.html" class="active">I've come up with a new recipeh!</a></li>
+                <li><a href="#">Whatchu want fam?</a></li>
+                <li><a href="#">Looking for something?</a></li>
+            </ul>
+            <!-- Header bar with website name, browse, and search bar -->
         </div>
-        <div class="header-bar">
-            <!-- Browse placeholder -->
-            <p>Whatchu want fam?</p>
-        </div>
-        <div class="header-bar">
-            <!-- Search placeholder -->
-            <p>Looking for something?</p>
-        </div>
-    </div>
-    <br></br>
+    </header>
+    <br>
     <div class="container clear-fix">
         <div class="thumbnail-image">
             <div class="thumbnail-desc">
+                <h2>Cucumber Lemonade</h2>
                 <p>Cucumber lemonade is a refreshing drink I cannot recreate for the life of me.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan a urna a auctor. Sed nec tincidunt orci. Nunc laoreet hendrerit risus quis porta. Nunc molestie at magna ut ultrices. Fusce dui mauris, hendrerit vel eros sit amet, elementum mollis lorem. Pellentesque lorem eros, bibendum quis mollis vel, aliquam eu purus. Vivamus scelerisque dictum est. In hac habitasse platea dictumst.</p>
             </div>
@@ -99,9 +167,9 @@
                 <img src="img/cucumber-lemonade.jpg" height="250" width="430">
             </a>
         </div>
-        <br class="clear"></br>
+        <br class="clear">
     </div>
-    <br></br>
+    <br>
     <div class="container clear-fix">
         <h2>Ingedients</h2>
         <div class="thumbnail-desc">
@@ -113,9 +181,9 @@
                 <li>1/2 large cucumber, sliced</li>
             </ul>
         </div>
-        <br class="clear"></br>
+        <br class="clear">
     </div>
-    <br></br>
+    <br>
     <div class="container clear-fix">
         <h2>Directions</h2>
         <div class="thumbnail-desc">
@@ -124,21 +192,17 @@
                 <li>Pour lemon-lime soda into pitcher. Serve lemonade over ice and garnished with lemon slices and halved cucumber slices.</li>
             </ol>
         </div>
-        <br class="clear"></br>
+        <br class="clear">
     </div>
-    <br></br>
-    <div class="container clear-fix">
-        <div class="footer-bar">
-            <a href="about.html">
-                <p>About Us</p>
-            </a>
+    <br>
+    <footer>
+        <div class="container clear-fix">
+            <ul>
+                <li><a href="about.html">About us!</a></li>
+                <li><a href="contact.html">Contact us!</a></li>
+            </ul>
         </div>
-        <div class="footer-bar">
-            <a href="contact.html">
-                <p>Contact Us</p>
-            </a>
-        </div>
-    </div>
+    </footer>
 </body>
 
 </html>
