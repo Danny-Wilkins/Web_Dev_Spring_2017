@@ -1,6 +1,6 @@
 Concept: A website to showcase projects, documentation/writeups, and other things about various project related activities. 
 
-Presentation: 
+Presentation: https://github.com/Danny-Wilkins/Web_Dev_Spring_2017/blob/master/Week_5/proposal.pdf
 
 Existing website: https://osiris.cyber.nyu.edu/
 
