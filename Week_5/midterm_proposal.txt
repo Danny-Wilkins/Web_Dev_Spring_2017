@@ -1,0 +1,9 @@
+Concept: A website to showcase projects, documentation/writeups, and other things about various project related activities. 
+
+Presentation: 
+
+Existing website: https://osiris.cyber.nyu.edu/
+
+Skills: Navbar, links, images, page formatting using divs, etc. 
+
+Still need to learn: Maybe like an endless scrolling thing so the page can get longer automatically, not that I have that much content.
