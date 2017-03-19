@@ -1,14 +1,17 @@
 /*styles.css*/
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgba(229, 229, 229, 1.0);
+    background-image: url("../img/fabric_of_squares_gray.png");
     margin: 0px;
     padding: 0px;
 }
 
 header {
+    font-family: 'Raleway', sans-serif;
     width: 100%;
-    background-color: rgba(38, 38, 38, 255);
+    background-color: rgba(38, 38, 38, 1.0);
     color: white;
     position: fixed;
     z-index: 100;
@@ -16,36 +19,66 @@ header {
     line-height: 50px;
 }
 
-nav {
-	padding: 0;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+div img.link {
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.link {
+	height: 200px;
+}
+
+div ul
+{
+	list-style-type: none;
 	margin: 0;
-	height: 50px;
+	padding: 0;
+	white-space:nowrap;
+	text-align: center;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    height: 50px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
 nav li {
-	margin: 0px;
-	padding: 0px;
-	font-size: 24px;
-	height: 10px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    height: 10px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     text-align: center;
     display: block;
 }
 
+div a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: block;
+}
 
 nav li:hover {
     border-color: white;
-    background-color: rgba(150, 0, 24, 255);
+    background-color: rgba(150, 0, 24, 1.0);
     color: white;
     /*font-family: 'Indie Flower', cursive;*/
     padding-top: 5px;
@@ -53,37 +86,71 @@ nav li:hover {
 }
 
 nav li.active:hover {
-	/*Overrides an issue where hovering over active box would increase the header height*/
-	padding-top: 0px;
+    /*Overrides an issue where hovering over active box would increase the header height*/
+    padding-top: 0px;
 }
 
 nav li.home:hover {
-	padding-top: 0px;
+    padding-top: 0px;
 }
 
 .active {
-    background-color: rgba(150, 0, 24, 255);
+    background-color: rgba(150, 0, 24, 1.0);
     color: white;
     height: 50px;
 }
 
 .icon {
-	float: left;
-	padding: 10px;
+    float: left;
+    padding: 10px;
 }
 
-.icon-font-home{
-	font-family: 'Indie Flower', cursive;
-	font-size: 24px;
-	float: left;
-	padding-top: 2px;
-	margin: 0px;
+.icon-font-home {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    float: left;
+    padding-top: 2px;
+    margin: 0px;
 }
 
 .icon-font {
-	font-family: 'Indie Flower', cursive;
-	font-size: 24px;
-	float: left;
-	padding-top: 2px;
-	margin: 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    float: left;
+    padding-top: 2px;
+    margin: 0px;
+}
+
+.container {
+    /*background-color: rgba(0, 0, 255, 0.25);*/
+}
+
+div {
+    /*background-color: rgba(0, 0, 255, 0.25);*/
+    /*background-color: rgba(229, 229, 229, 1.0);*/
+    min-height: 100px;
+    height: auto;
+    /*outline: 1px solid black;*/
+    background-clip: content-box;
+}
+
+hr {
+	width: 1000px;
+}
+
+div .grid_1,
+div .grid_2,
+div .grid_3,
+div .grid_4,
+div .grid_5,
+div .grid_6,
+div .grid_7,
+div .grid_8,
+div .grid_9,
+div .grid_10,
+div .grid_11,
+div .grid_12 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
 }
