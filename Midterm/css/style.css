@@ -19,9 +19,14 @@ header {
     line-height: 50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
 }
 
 div img.link {
@@ -31,16 +36,49 @@ div img.link {
 }
 
 .link {
-	height: 200px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
 }
 
-div ul
-{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	white-space:nowrap;
-	text-align: center;
+div li h3 {
+    color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    width: 100px;
+}
+
+div h2 {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+div li:hover h3 {
+    color: white;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    width: 100px;
+    padding-left: 15px;
+    transition: all 0.5s linear;
+}
+
+div li img:hover {
+    -webkit-filter: brightness(30%) blur(1px);
+    -moz-filter: brightness(30%) blur(1px);
+    transition: all 0.5s ease;
+}
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    text-align: center;
 }
 
 nav {
@@ -76,6 +114,13 @@ div a {
     display: block;
 }
 
+div.about a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: left;
+}
+
 nav li:hover {
     border-color: white;
     background-color: rgba(150, 0, 24, 1.0);
@@ -84,6 +129,43 @@ nav li:hover {
     padding-top: 5px;
     transition: all 0.15s linear;
 }
+
+.get_funky {
+    position: relative;
+}
+
+.glasses {
+    position: absolute;
+    top: -55px;
+    left: 120px;
+    width: 100px;
+    padding-top: 60px;
+    opacity: 0.0;
+}
+
+.get_funky:hover .glasses {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    width: 100px;
+    padding-top: 60px;
+    opacity: 1.0;
+    transition: all 0.7s linear;
+}
+
+
+/*Remember to check Slack to see if Chris sent the audio files*/
+
+
+/*div a img:hover .glasses{
+	position: absolute;
+	top: 135px;
+	left: 140px;
+	width: 100px;
+	padding-top: 60px;
+	opacity: 1.0;
+	transition: all 0.5s linear;
+}*/
 
 nav li.active:hover {
     /*Overrides an issue where hovering over active box would increase the header height*/
@@ -135,7 +217,8 @@ div {
 }
 
 hr {
-	width: 1000px;
+    width: 996px;
+    margin: 0px;
 }
 
 div .grid_1,

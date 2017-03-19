@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script type="text/javascript" src="sound-mouseover.js"></script>
 </head>
 
 <body>
@@ -34,29 +35,54 @@
     <div class="container clearfix">
         <div class="grid_12">
             <h1>About Me</h1>
-            <div class="grid_8 alpha">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu consectetur dui. Vestibulum sollicitudin quis elit a dignissim. Aenean id justo vitae massa luctus fringilla. In ornare lectus non nunc semper, non feugiat sapien efficitur. Nam ultrices nulla purus, ac pharetra nulla condimentum vel.
-                    <br> Suspendisse vel nunc fringilla, euismod lectus eget, sodales erat. Aenean lobortis convallis massa quis venenatis. Proin congue auctor bibendum. Maecenas a viverra nisl, efficitur euismod massa. Integer augue odio, sollicitudin et magna sed, tristique condimentum ante. Aliquam euismod dui elementum ex porta, eu tincidunt odio faucibus. Morbi efficitur, nunc eu fringilla bibendum, elit eros maximus lacus, et blandit nisl tortor sit amet nibh. Mauris suscipit tincidunt diam non eleifend. Sed dapibus nulla tellus. Integer dui quam, rhoncus ut sapien ut, imperdiet aliquet eros. Sed ac est id diam ornare auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas scelerisque et lorem vel porttitor. Donec mauris mi, blandit eu fermentum in, ultrices nec ante. Sed in magna justo. Nunc sit amet eros eu lectus sagittis ornare non in ante. Suspendisse gravida ornare libero sed accumsan. Quisque non ultrices ante, sed volutpat purus.</p>
+            <div class="grid_8 about alpha">
+                <a href="about.html">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu consectetur dui. Vestibulum sollicitudin quis elit a dignissim. Aenean id justo vitae massa luctus fringilla. In ornare lectus non nunc semper, non feugiat sapien efficitur. Nam ultrices nulla purus, ac pharetra nulla condimentum vel.
+                        <br> Suspendisse vel nunc fringilla, euismod lectus eget, sodales erat. Aenean lobortis convallis massa quis venenatis. Proin congue auctor bibendum. Maecenas a viverra nisl, efficitur euismod massa. Integer augue odio, sollicitudin et magna sed, tristique condimentum ante. Aliquam euismod dui elementum ex porta, eu tincidunt odio faucibus. Morbi efficitur, nunc eu fringilla bibendum, elit eros maximus lacus, et blandit nisl tortor sit amet nibh. Mauris suscipit tincidunt diam non eleifend. Sed dapibus nulla tellus. Integer dui quam, rhoncus ut sapien ut, imperdiet aliquet eros. Sed ac est id diam ornare auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas scelerisque et lorem vel porttitor. Donec mauris mi, blandit eu fermentum in, ultrices nec ante. Sed in magna justo. Nunc sit amet eros eu lectus sagittis ornare non in ante. Suspendisse gravida ornare libero sed accumsan. Quisque non ultrices ante, sed volutpat purus.</p>
+                </a>
             </div>
-            <div class="grid_4 omega">
-                <br><img src="img/yes.jpg">
+            <div class="grid_4 get_funky omega">
+                <audio>
+                    <source src="audio/wow.mp3">
+                </audio>
+                <a href="about.html">
+                    <br><img onmouseover="playclip();" src="img/yes.png">
+                    <img class="glasses" src="img/mlg.png">
+                </a>
             </div>
         </div>
         <hr>
         <ul>
             <li>
-                <div class="grid_4 link"><a href="projects.html"><h3>Projects</h3><img class="link" src="img/code.jpeg"></a></div>
+                <div class="grid_4 link">
+                    <a href="projects.html">
+                        <h2>Projects</h2>
+                        <img class="link" onmouseover="playclip();" src="img/code.jpeg">
+                        <h3>Projects written in<br>Python, C++, etc.</h3>
+                    </a>
+                </div>
             </li>
             <li>
-                <div class="grid_4 link"><a href="writeups.html"><h3>Writeups</h3><img class="link" src="img/writing.jpeg"></a></div>
+                <div class="grid_4 link">
+                    <a href="writeups.html">
+                        <h2>Writeups</h2>
+                        <img class="link" onmouseover="playclip();" src="img/writing.jpeg">
+                        <h3>Reports written on<br>a variety of topics</h3>
+                    </a>
+                </div>
             </li>
             <li>
-                <div class="grid_4 link"><a href="contact.html"><h3>Contact Me</h3><img class="link" src="img/phone.jpeg"></a></div>
+                <div class="grid_4 link">
+                    <a href="contact.html">
+                        <h2>Contact Me</h2>
+                        <img class="link" onmouseover="playclip();" src="img/phone.jpeg">
+                        <h3>Contact information:<br>email, phone number, etc.</h3>
+                    </a>
+                </div>
             </li>
         </ul>
     </div>
     <footer>
-    	<br>
         <div class="container clearfix">
             <hr>
             <!-- <ul>
