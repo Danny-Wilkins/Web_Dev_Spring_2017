@@ -13,8 +13,8 @@ header {
     width: 100%;
     background-color: rgba(38, 38, 38, 1.0);
     color: white;
-    position: fixed;
-    z-index: 100;
+    /*position: fixed;
+    z-index: 100;*/
     height: auto;
     line-height: 50px;
 }
@@ -79,6 +79,48 @@ div ul {
     padding: 0;
     white-space: nowrap;
     text-align: center;
+}
+
+div img {
+    border-radius: 20px;
+}
+
+div.icon_web img {
+    border-radius: 0px;
+}
+
+div.resume h3 {
+    color: rgba(255, 255, 255, 0.0);
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100px;
+}
+
+div.resume:hover h3 {
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100px;
+    padding-left: 15px;
+    transition: all 0.5s linear;
+}
+
+div.resume img:hover {
+    -webkit-filter: brightness(30%) blur(1px);
+    -moz-filter: brightness(30%) blur(1px);
+    transition: all 0.5s ease;
+}
+
+div.icon_web {
+    display: block;
+}
+
+div.icon_web:hover {
+    -webkit-filter: drop-shadow(16px 16px 3px #CCCCCC);
+    -moz-filter: drop-shadow(16px 16px 10px #CCCCCC);
+    transition: all 0.5s ease;
 }
 
 nav {
@@ -158,13 +200,13 @@ nav li:hover {
 
 
 /*div a img:hover .glasses{
-	position: absolute;
-	top: 135px;
-	left: 140px;
-	width: 100px;
-	padding-top: 60px;
-	opacity: 1.0;
-	transition: all 0.5s linear;
+    position: absolute;
+    top: 135px;
+    left: 140px;
+    width: 100px;
+    padding-top: 60px;
+    opacity: 1.0;
+    transition: all 0.5s linear;
 }*/
 
 nav li.active:hover {
@@ -207,6 +249,10 @@ nav li.home:hover {
     /*background-color: rgba(0, 0, 255, 0.25);*/
 }
 
+body > .container {
+    padding-top: 20px;
+}
+
 div {
     /*background-color: rgba(0, 0, 255, 0.25);*/
     /*background-color: rgba(229, 229, 229, 1.0);*/
@@ -216,9 +262,18 @@ div {
     background-clip: content-box;
 }
 
-hr {
-    width: 996px;
-    margin: 0px;
+span {
+    text-align: center;
+}
+
+.sidebar_head {
+    text-align: center;
+}
+
+.resume {
+    height: 200px;
+    width: auto;
+    overflow: hidden;
 }
 
 div .grid_1,

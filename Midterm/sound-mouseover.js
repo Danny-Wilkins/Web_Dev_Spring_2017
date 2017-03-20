@@ -25,3 +25,24 @@ function playclip4() {
     audio.play();
 
 }
+
+function playclip5() {
+
+    var audio = document.getElementById("good");
+    audio.play();
+
+}
+
+function playclip6() {
+
+    var audio = document.getElementById("example");
+    audio.play();
+
+}
+
+function playclip7() {
+
+    var audio = document.getElementById("more");
+    audio.play();
+
+}
