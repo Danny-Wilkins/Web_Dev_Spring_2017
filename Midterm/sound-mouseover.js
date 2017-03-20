@@ -46,3 +46,10 @@ function playclip7() {
     audio.play();
 
 }
+
+function playclip8() {
+
+    var audio = document.getElementById("yes");
+    audio.play();
+
+}
