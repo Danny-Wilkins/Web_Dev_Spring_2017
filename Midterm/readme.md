@@ -26,7 +26,43 @@ Literally just my email. Nothing fancy.
 
 <h2>The Most Interesting Things</h2>
 <br>
-One thing that I discovered that I thought was really cool was that anything can be given a grid_num class to make it fit onto the grid. This helped prevent some really unnecessary code changing the size of things like >hr<. The animations were definitely the most difficult thing to do. In the end I got it mostly through trial and error, but having one button activate two or more animations was somewhat difficult. Oh and the glasses. The sound was the most obnoxious to get working but definitely worth. Using some really bad JavaScript, the voice of our beloved Professor Haldun graces my website. As an aside, the little red box animation on the nav bar started as an issue but I decided it looked really cool instead of just turning the whole box red.
+One thing that I discovered that I thought was really cool was that anything can be given a grid_num class to make it fit onto the grid. This helped prevent some really unnecessary code changing the size of things like >hr<. The animations were definitely the most difficult thing to do. In the end I got it mostly through trial and error, but having one button activate two or more animations was somewhat difficult. Oh and the glasses:
+
+```CSS
+.get_funky {
+    position: relative;
+}
+
+.glasses {
+    position: absolute;
+    top: -55px;
+    left: 120px;
+    width: 100px;
+    padding-top: 60px;
+    opacity: 0.0;
+}
+
+.get_funky:hover .glasses {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    width: 100px;
+    padding-top: 60px;
+    opacity: 1.0;
+    transition: all 0.7s linear;
+}
+```
+
+The sound was the most obnoxious to get working but definitely worth. Using some really bad JavaScript, the voice of our beloved Professor Haldun graces my website. 
+
+```Javascript
+function playclip1() {
+    var audio = document.getElementById("break");
+    audio.play();
+}
+```
+
+As an aside, the little red box animation on the nav bar started as an issue but I decided it looked really cool instead of just turning the whole box red.
 
 <h2>Issues</h2>
 <br>
