@@ -22,7 +22,7 @@ The Projects page is literally just a grid of buttons with brief summaries and l
 Probably the easiest to make but the hardest to fill up. Instead of Lorem Ipsum I put random crap just to make it look like hey here's what it would be like if I enjoyed writing at all.
 
 <h3>Contact</h3>
-Literally jut my email. Nothing fancy. 
+Literally just my email. Nothing fancy. 
 
 <h2>The Most Interesting Things</h2>
 <br>
