@@ -30,7 +30,7 @@ One thing that I discovered that I thought was really cool was that anything can
 
 <h2>Issues</h2>
 <br>
-The nav bar doesn't like to play nice with mobile or thinner screens and apparently the audio blows people's ears out if they're wearing headphones. It's less that either of these are an issue and more than I didn't find it worth my time to fix. 
+The nav bar doesn't like to play nice with mobile or thinner screens and apparently the audio blows people's ears out if they're wearing headphones. It's less that either of these are an issue and more that I didn't find it worth my time to fix. 
 
 <h2>What I learned</h2>
 <br>
