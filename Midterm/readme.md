@@ -6,7 +6,8 @@
 It has four sections: About, Projects, Writeups, and Contact. Each of these sections helps give an in-depth look about me as a person and a programmer. 
 
 <h2>The Website Building Process</h2>
-<br>Naturally the website began with the sitemap, wireframe, and concept, found <a href="https://github.com/Danny-Wilkins/Web_Dev_Spring_2017/blob/master/Week_5/proposal.pdf">here</a>. Once the general idea of how the website would be laid out was there, it was just a matter of putting things into the right place. First, the nav bar was implemented, and then the rest of the site was built using a 996 grid layout. 
+<br>
+Naturally the website began with the sitemap, wireframe, and concept, found <a href="https://github.com/Danny-Wilkins/Web_Dev_Spring_2017/blob/master/Week_5/proposal.pdf">here</a>. Once the general idea of how the website would be laid out was there, it was just a matter of putting things into the right place. First, the nav bar was implemented, and then the rest of the site was built using a 996 grid layout. 
 
 <h3>Home</h3>
 The home page was by far the hardest and most time consuming; this is where I started from scratch. First, I implemented the nav bar; it ended up becoming a terrifying CSS rabbit hole, and I spent many hours making slight adjustments to silly things like fonts and animations. The rest of the page was also difficult because I was still figuring out how the 996 grid worked; I forgot alpha and omega were a thing so I did some hacky stuff to get things in the right place. Eventually I went back and fixed most of the ghettoness in my code. The animations and sound effects were also a pain. In the end, it was a good thing that this took so long because most of the code written on this page was reimplemented in other parts of the website. 
