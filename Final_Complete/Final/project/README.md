@@ -28,6 +28,42 @@ The front end was written using HTML and CSS to provide a web interface. JavaScr
 <h2>Challenges I ran into</h2>
 The greatest challenge by far has been using Flask to tie the front and back ends together, with the largest obstacle being getting user input into the back end, and then taking the results from the back end and outputting it to the front end. In the end, I used Python to return a dynamically generated HTML page containing all of the results. I know you have things like innerHtml to change the page content, but because the true issue lied in returning info from Python to JS, I opted to create the page in Python instead.
 
+```for i in range(0, 20):
+			...
+			html_data += '''<div class="container">
+			<a href="{}" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url({}); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>{}</h2>
+	                <h4>{} miles</h4>
+	                <h4>{}</h4>
+	                <h4>{}</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>{}</h2>
+	                <h4>{} reviews</h4>
+	                <h2>{}</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>{}</h1>
+	                <h3>{}</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>\n
+	    </a>'''.format(url, image_url, name, miles, add, phone, rating, reviews, price, data[i][1], data[i][0])
+
+  ...
+  with open(new_page, 'w') as new:
+		new.write(page)
+		new.write(html_data)
+		new.write('</body>\n<html>')
+
+	return render_template('results.html')
+```
+
 AWS is the absolute bane of my existence. It literally just will not work. A few times I got it to display Bytes, but upon refreshing the page or making any changes to the most meaningless code, or even adding a COMMENT or NOTHING it broke everything and I couldn't get the page up again. I've given up and, as such, Bytes is a localhost:5000 only application.
 
 <h2>Accomplishments I'm proud of</h2>
