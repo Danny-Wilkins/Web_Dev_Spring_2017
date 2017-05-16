@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bytes</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img class="icon" src="img/icon.png"></img>
+                </a>
+                <p class="navbar-text">Bytes</p>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 1</a></li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="container" style="padding-top:60px"> -->
+    <div class="jumbotron text-center" style="background-image: url('img/food.jpg'); background-size:cover;">
+        <div class="container">
+            <h1>It's simple.</h1>
+            <p>Just enter your location and we'll find the best deals in your area.</p>
+            <form action="search.html" method="GET">
+                <input type="text" name="address" placeholder="Time to eat!" id="add">
+                <input type="button" value="Go!" class="btn btn-default btn-lg" id="add_but" onclick="main()" />
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <!-- Name -->
+                <h1>Trendy Mexican Restaurant</h1>
+                <!-- Distance -->
+                <h4>0.5km</h4>
+                <!-- Address -->
+                <h4>100 Broadway</h4>
+                <!-- Phone Number -->
+                <h4>123-456-7890</h4>
+            </div>
+            <div class="col-sm-2">
+                <!-- Rating -->
+                <h2>4.5/5</h2>
+                <!-- Rating Count -->
+                <h4>46 Reviews</h4>
+                <!-- Price -->
+                <h2>$$$</h2>
+            </div>
+            <div class="col-sm-1 col-sm-offset-2">
+                <!-- Grade -->
+                <h1>A</h1>
+                <!-- Number -->
+                <h2>90</h2>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/yelp.js"></script>
+</body>
+
+</html>

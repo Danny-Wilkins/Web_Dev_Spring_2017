@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bytes</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/bootstrap.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+    <a href="top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img class="icon" src="{{url_for('static', filename='img/icon.png')}}"></img>
+                    </a>
+                    <p class="navbar-text">Bytes</p>
+                </div>
+            </div>
+        </nav>
+    </a>
+    <!-- <div class="container" style="padding-top:60px"> -->
+    <div class="jumbotron text-center" id="top" style="background-image: url({{url_for('static', filename='img/food.jpg')}}); background-size:cover;">
+        <div class="container">
+            <h1>It's simple.</h1>
+            <p>Just enter your location and we'll find the best deals in your area.</p>
+            <form action="search.html" method="GET">
+                <input type="text" name="address" placeholder="Time to eat!" id="add">
+                <input type="button" value="Go!" class="btn btn-default btn-lg" id="add_but" onclick="search()" />
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{{url_for('static', filename='js/bootstrap.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/yelp.js')}}"></script>
+
+<div class="container">
+						<div class="row">
+	            			<div class="col-sm-11">
+	                		<h3>1080, Broad Street, Rahway, Union County, New Jersey, 07065, United States of America</h3>
+	                		</div>
+            			</div>
+            		</div>
+<div class="container">
+			<a href="https://www.yelp.com/biz/the-irving-inn-social-rahway-9?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/uX2suPey8RtDUhirWbC7CA/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>The Irving Inn Social</h2>
+	                <h4>0.35 miles</h4>
+	                <h4>1449 Irving St</h4>
+	                <h4>+19082852530</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>82 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>F</h1>
+	                <h3>Terrible!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/the-waiting-room-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media1.fl.yelpcdn.com/bphoto/PYcKG9iOwU1IGNXQHGx-2A/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>The Waiting Room</h2>
+	                <h4>0.39 miles</h4>
+	                <h4>66 E Cherry St</h4>
+	                <h4>+17323820900</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.0/5</h2>
+	                <h4>117 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>A</h1>
+	                <h3>Great!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/taste-of-marinas-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media3.fl.yelpcdn.com/bphoto/oNTgPF71_kdryXv-l-ZR_g/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Taste of Marina's</h2>
+	                <h4>0.41 miles</h4>
+	                <h4>78 E Cherry St</h4>
+	                <h4>+17323821931</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>23 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/sabor-peruano-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media3.fl.yelpcdn.com/bphoto/8CSqCUagFaCYwfmv8RMW2A/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Sabor Peruano</h2>
+	                <h4>0.49 miles</h4>
+	                <h4>1578 Irving St</h4>
+	                <h4>+17329001396</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>75 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/nygels-american-cuisine-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/SJb3Ft4k_cF46NKu2LKVLQ/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Nygel's American Cuisine</h2>
+	                <h4>0.4 miles</h4>
+	                <h4>85 E Cherry St</h4>
+	                <h4>+17326697674</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>19 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/lucianos-ristorante-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/dFRjYJFESRDhfTYnxj_DCQ/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Luciano's Ristorante</h2>
+	                <h4>0.48 miles</h4>
+	                <h4>1579 Main St</h4>
+	                <h4>+17328151200</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.0/5</h2>
+	                <h4>82 reviews</h4>
+	                <h2>$$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/haruka-sushi-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/-th7NtnMowqT7Hf2B-z0-Q/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Haruka Sushi</h2>
+	                <h4>0.37 miles</h4>
+	                <h4>75 East Cherry St</h4>
+	                <h4>+17323811763</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>12 reviews</h4>
+	                <h2>$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/la-malinche-restaurant-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media2.fl.yelpcdn.com/bphoto/02FGJHgORncxSaDBz1pXaw/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>La Malinche Restaurant</h2>
+	                <h4>0.5 miles</h4>
+	                <h4>1588 Irving St</h4>
+	                <h4>+17323829550</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>82 reviews</h4>
+	                <h2>$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/cubanu-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media1.fl.yelpcdn.com/bphoto/bNWy_FICNlWMDVy7gj4jHQ/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Cubanu</h2>
+	                <h4>0.39 miles</h4>
+	                <h4>1467 Main St</h4>
+	                <h4>+17324997100</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>3.5/5</h2>
+	                <h4>157 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>B</h1>
+	                <h3>Good!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/irving-inn-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/hB2cxFJVxHt26A0ZQP12cA/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Irving Inn</h2>
+	                <h4>0.35 miles</h4>
+	                <h4>47 E Cherry St</h4>
+	                <h4></h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>5.0/5</h2>
+	                <h4>1 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>D</h1>
+	                <h3>Bad!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/nancys-towne-house-rahway-2?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media3.fl.yelpcdn.com/bphoto/laIY2Srncyp6jAnWoPeriw/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Nancy's Towne House</h2>
+	                <h4>0.38 miles</h4>
+	                <h4>1453 Main St</h4>
+	                <h4>+17323888100</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.0/5</h2>
+	                <h4>83 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>D</h1>
+	                <h3>Bad!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/meatballs-and-brews-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media3.fl.yelpcdn.com/bphoto/4evDkXFcDlHqx4awR5l3TQ/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Meatballs & Brews</h2>
+	                <h4>0.39 miles</h4>
+	                <h4>1482 Main St</h4>
+	                <h4>+17323811066</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>3.5/5</h2>
+	                <h4>41 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>D</h1>
+	                <h3>Bad!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/hugos-restaurant-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media1.fl.yelpcdn.com/bphoto/Cud_4K7KzOMrK6g0GF7SjQ/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Hugo's Restaurant</h2>
+	                <h4>0.43 miles</h4>
+	                <h4>1505 Main St</h4>
+	                <h4>+17328275850</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.0/5</h2>
+	                <h4>16 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>D</h1>
+	                <h3>Bad!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/mr-apple-pie-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media1.fl.yelpcdn.com/bphoto/92k3mj0RXIlwWC9EK1VnGg/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Mr Apple Pie</h2>
+	                <h4>0.42 miles</h4>
+	                <h4>1524 Irving St</h4>
+	                <h4>+17323880650</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.0/5</h2>
+	                <h4>32 reviews</h4>
+	                <h2>$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>D</h1>
+	                <h3>Bad!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/patria-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media2.fl.yelpcdn.com/bphoto/u7HP7VRs_OWgpQ0pvmRMWg/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Patria</h2>
+	                <h4>0.57 miles</h4>
+	                <h4>169 W Main St</h4>
+	                <h4>+17329437531</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>3.5/5</h2>
+	                <h4>83 reviews</h4>
+	                <h2>$$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>C</h1>
+	                <h3>Average!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/rahway-fried-chicken-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media4.fl.yelpcdn.com/bphoto/Q4i0F-_je6kab6hpmeC10w/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Rahway Fried Chicken</h2>
+	                <h4>0.4 miles</h4>
+	                <h4>95 E Cherry St</h4>
+	                <h4>+17325408762</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>4.5/5</h2>
+	                <h4>40 reviews</h4>
+	                <h2>$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>C</h1>
+	                <h3>Average!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/just-plain-daves-rahway-3?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media2.fl.yelpcdn.com/bphoto/HmlHn9bl3hvYilA-aa7Xsg/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Just Plain Dave's</h2>
+	                <h4>0.45 miles</h4>
+	                <h4>956 St Georges Ave</h4>
+	                <h4>+17323814099</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>3.0/5</h2>
+	                <h4>48 reviews</h4>
+	                <h2>$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>C</h1>
+	                <h3>Average!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a><div class="container">
+			<a href="https://www.yelp.com/biz/rahway-grill-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA" target="_blank">
+			<div class="jumbotron" id="result">
+			<div class="block" style="background-image: url(https://s3-media3.fl.yelpcdn.com/bphoto/a7YOlJkRHebawOGyCybu9w/o.jpg); background-size:cover;"></div>
+	        <div class="row">
+	            <div class="col-sm-8">
+	                <h2>Rahway Grill</h2>
+	                <h4>0.36 miles</h4>
+	                <h4>47 E Cherry St</h4>
+	                <h4>+17323818188</h4>
+	            </div>
+	            <div class="col-sm-2">
+	                <h2>3.5/5</h2>
+	                <h4>8 reviews</h4>
+	                <h2>$</h2>
+	            </div>
+	            <div class="col-sm-1 col-sm-offset-1">
+	                <h1>C</h1>
+	                <h3>Average!</h3>
+	            </div>
+	        </div>
+	        </div>
+	    </div>
+
+	    </a></body>
+<html>

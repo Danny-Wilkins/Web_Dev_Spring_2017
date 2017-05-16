@@ -1,0 +1,830 @@
+{
+    "businesses": [
+        {
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                },
+                {
+                    "alias": "tapasmallplates",
+                    "title": "Tapas/Small Plates"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6067899112207,
+                "longitude": -74.275471438668
+            },
+            "display_phone": "(908) 285-2530",
+            "distance": 555.3804337483999,
+            "id": "the-irving-inn-social-rahway-9",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/uX2suPey8RtDUhirWbC7CA/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1449 Irving St",
+                "address2": null,
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1449 Irving St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "The Irving Inn Social",
+            "phone": "+19082852530",
+            "price": "$$",
+            "rating": 4.5,
+            "review_count": 82,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/the-irving-inn-social-rahway-9?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6069772,
+                "longitude": -74.2746369
+            },
+            "display_phone": "(732) 382-0900",
+            "distance": 623.5471032878,
+            "id": "the-waiting-room-rahway",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PYcKG9iOwU1IGNXQHGx-2A/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "66 E Cherry St",
+                "address2": null,
+                "address3": null,
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "66 E Cherry St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "The Waiting Room",
+            "phone": "+17323820900",
+            "price": "$$",
+            "rating": 4.0,
+            "review_count": 117,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/the-waiting-room-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                },
+                {
+                    "alias": "soulfood",
+                    "title": "Soul Food"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.60714,
+                "longitude": -74.27432
+            },
+            "display_phone": "(732) 382-1931",
+            "distance": 655.599410744,
+            "id": "taste-of-marinas-rahway",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/oNTgPF71_kdryXv-l-ZR_g/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "78 E Cherry St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "78 E Cherry St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Taste of Marina's",
+            "phone": "+17323821931",
+            "price": "$$",
+            "rating": 4.5,
+            "review_count": 23,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/taste-of-marinas-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.610104,
+                "longitude": -74.277107
+            },
+            "display_phone": "(732) 900-1396",
+            "distance": 782.2014088042,
+            "id": "sabor-peruano-rahway",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8CSqCUagFaCYwfmv8RMW2A/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1578 Irving St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1578 Irving St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Sabor Peruano",
+            "phone": "+17329001396",
+            "price": "$$",
+            "rating": 4.5,
+            "review_count": 75,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/sabor-peruano-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "soulfood",
+                    "title": "Soul Food"
+                },
+                {
+                    "alias": "comfortfood",
+                    "title": "Comfort Food"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.60682,
+                "longitude": -74.27423
+            },
+            "display_phone": "(732) 669-7674",
+            "distance": 638.0502500601999,
+            "id": "nygels-american-cuisine-rahway",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/SJb3Ft4k_cF46NKu2LKVLQ/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "85 E Cherry St",
+                "address2": null,
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "85 E Cherry St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Nygel's American Cuisine",
+            "phone": "+17326697674",
+            "price": "$$",
+            "rating": 4.5,
+            "review_count": 19,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/nygels-american-cuisine-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.60819,
+                "longitude": -74.27356
+            },
+            "display_phone": "(732) 815-1200",
+            "distance": 772.6263990732,
+            "id": "lucianos-ristorante-rahway",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/dFRjYJFESRDhfTYnxj_DCQ/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1579 Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1579 Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Luciano's Ristorante",
+            "phone": "+17328151200",
+            "price": "$$$",
+            "rating": 4.0,
+            "review_count": 82,
+            "transactions": [
+                "delivery",
+                "pickup"
+            ],
+            "url": "https://www.yelp.com/biz/lucianos-ristorante-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                },
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6066719717818,
+                "longitude": -74.27466083318
+            },
+            "display_phone": "(732) 381-1763",
+            "distance": 601.8600880629999,
+            "id": "haruka-sushi-rahway",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-th7NtnMowqT7Hf2B-z0-Q/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "75 East Cherry St",
+                "address2": null,
+                "address3": "Ste 10 A",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "75 East Cherry St",
+                    "Ste 10 A",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Haruka Sushi",
+            "phone": "+17323811763",
+            "price": "$",
+            "rating": 4.5,
+            "review_count": 12,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/haruka-sushi-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.61031,
+                "longitude": -74.27717
+            },
+            "display_phone": "(732) 382-9550",
+            "distance": 803.1154580269999,
+            "id": "la-malinche-restaurant-rahway",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/02FGJHgORncxSaDBz1pXaw/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1588 Irving St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1588 Irving St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "La Malinche Restaurant",
+            "phone": "+17323829550",
+            "price": "$",
+            "rating": 4.5,
+            "review_count": 82,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/la-malinche-restaurant-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "cuban",
+                    "title": "Cuban"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.606208,
+                "longitude": -74.273834
+            },
+            "display_phone": "(732) 499-7100",
+            "distance": 632.55028233,
+            "id": "cubanu-rahway",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bNWy_FICNlWMDVy7gj4jHQ/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1467 Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1467 Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Cubanu",
+            "phone": "+17324997100",
+            "price": "$$",
+            "rating": 3.5,
+            "review_count": 157,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/cubanu-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6068454232873,
+                "longitude": -74.275410494374
+            },
+            "display_phone": "",
+            "distance": 563.4290327696,
+            "id": "irving-inn-rahway",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/hB2cxFJVxHt26A0ZQP12cA/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "47 E Cherry St",
+                "address2": "",
+                "address3": null,
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "47 E Cherry St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Irving Inn",
+            "phone": "",
+            "price": "$$",
+            "rating": 5.0,
+            "review_count": 1,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/irving-inn-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.605937,
+                "longitude": -74.273757
+            },
+            "display_phone": "(732) 388-8100",
+            "distance": 615.8496139744,
+            "id": "nancys-towne-house-rahway-2",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/laIY2Srncyp6jAnWoPeriw/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1453 Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1453 Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Nancy's Towne House",
+            "phone": "+17323888100",
+            "price": "$$",
+            "rating": 4.0,
+            "review_count": 83,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/nancys-towne-house-rahway-2?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "desserts",
+                    "title": "Desserts"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.606597401833,
+                "longitude": -74.2741406030411
+            },
+            "display_phone": "(732) 381-1066",
+            "distance": 633.826649884,
+            "id": "meatballs-and-brews-rahway",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4evDkXFcDlHqx4awR5l3TQ/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1482 Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1482 Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Meatballs & Brews",
+            "phone": "+17323811066",
+            "price": "$$",
+            "rating": 3.5,
+            "review_count": 41,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/meatballs-and-brews-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                },
+                {
+                    "alias": "peruvian",
+                    "title": "Peruvian"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6066832474972,
+                "longitude": -74.2733570510106
+            },
+            "display_phone": "(732) 827-5850",
+            "distance": 695.443048129,
+            "id": "hugos-restaurant-rahway",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/Cud_4K7KzOMrK6g0GF7SjQ/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1505 Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1505 Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Hugo's Restaurant",
+            "phone": "+17328275850",
+            "price": "$$",
+            "rating": 4.0,
+            "review_count": 16,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/hugos-restaurant-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                },
+                {
+                    "alias": "diners",
+                    "title": "Diners"
+                },
+                {
+                    "alias": "mediterranean",
+                    "title": "Mediterranean"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.60874,
+                "longitude": -74.27643
+            },
+            "display_phone": "(732) 388-0650",
+            "distance": 669.5056050302,
+            "id": "mr-apple-pie-rahway",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/92k3mj0RXIlwWC9EK1VnGg/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "1524 Irving St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "1524 Irving St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Mr Apple Pie",
+            "phone": "+17323880650",
+            "price": "$",
+            "rating": 4.0,
+            "review_count": 32,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/mr-apple-pie-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "spanish",
+                    "title": "Spanish"
+                },
+                {
+                    "alias": "latin",
+                    "title": "Latin American"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6109886169434,
+                "longitude": -74.2755355834961
+            },
+            "display_phone": "(732) 943-7531",
+            "distance": 913.5218308103999,
+            "id": "patria-rahway",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/u7HP7VRs_OWgpQ0pvmRMWg/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "169 W Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "169 W Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Patria",
+            "phone": "+17329437531",
+            "price": "$$",
+            "rating": 3.5,
+            "review_count": 83,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/patria-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "chicken_wings",
+                    "title": "Chicken Wings"
+                },
+                {
+                    "alias": "chickenshop",
+                    "title": "Chicken Shop"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.60681,
+                "longitude": -74.27422
+            },
+            "display_phone": "(732) 540-8762",
+            "distance": 642.254843931,
+            "id": "rahway-fried-chicken-rahway",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Q4i0F-_je6kab6hpmeC10w/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "95 E Cherry St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "95 E Cherry St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Rahway Fried Chicken",
+            "phone": "+17325408762",
+            "price": "$",
+            "rating": 4.5,
+            "review_count": 40,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/rahway-fried-chicken-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6063270568848,
+                "longitude": -74.288379997015
+            },
+            "display_phone": "(732) 381-4099",
+            "distance": 729.475600175,
+            "id": "just-plain-daves-rahway-3",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HmlHn9bl3hvYilA-aa7Xsg/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "956 St Georges Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "956 St Georges Ave",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Just Plain Dave's",
+            "phone": "+17323814099",
+            "price": "$",
+            "rating": 3.0,
+            "review_count": 48,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/just-plain-daves-rahway-3?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "hotdog",
+                    "title": "Hot Dogs"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6069613993168,
+                "longitude": -74.2752666771412
+            },
+            "display_phone": "(732) 381-8188",
+            "distance": 584.5867360684,
+            "id": "rahway-grill-rahway",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/a7YOlJkRHebawOGyCybu9w/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "47 E Cherry St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "47 E Cherry St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Rahway Grill",
+            "phone": "+17323818188",
+            "price": "$",
+            "rating": 3.5,
+            "review_count": 8,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/rahway-grill-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "chinese",
+                    "title": "Chinese"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6057337,
+                "longitude": -74.2764909
+            },
+            "display_phone": "(732) 396-1996",
+            "distance": 406.8663059842,
+            "id": "dragon-palace-rahway",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/WQXhDUJzqWDLxoMvDuoCUA/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "41 E Milton Ave",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "41 E Milton Ave",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Dragon Palace",
+            "phone": "+17323961996",
+            "rating": 4.5,
+            "review_count": 7,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/dragon-palace-rahway?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        },
+        {
+            "categories": [
+                {
+                    "alias": "chicken_wings",
+                    "title": "Chicken Wings"
+                },
+                {
+                    "alias": "sandwiches",
+                    "title": "Sandwiches"
+                },
+                {
+                    "alias": "chickenshop",
+                    "title": "Chicken Shop"
+                }
+            ],
+            "coordinates": {
+                "latitude": 40.6110995195471,
+                "longitude": -74.2767981238239
+            },
+            "display_phone": "(848) 236-5399",
+            "distance": 895.05375308,
+            "id": "jersey-fried-chicken-rahway-2",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/w6HidX_Jm60qjT62Li2xHQ/o.jpg",
+            "is_closed": false,
+            "location": {
+                "address1": "221 W Main St",
+                "address2": "",
+                "address3": "",
+                "city": "Rahway",
+                "country": "US",
+                "display_address": [
+                    "221 W Main St",
+                    "Rahway, NJ 07065"
+                ],
+                "state": "NJ",
+                "zip_code": "07065"
+            },
+            "name": "Jersey Fried Chicken",
+            "phone": "+18482365399",
+            "price": "$",
+            "rating": 3.5,
+            "review_count": 2,
+            "transactions": [],
+            "url": "https://www.yelp.com/biz/jersey-fried-chicken-rahway-2?adjust_creative=XRYdDW2W0jN3S5ZDt6v1qA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XRYdDW2W0jN3S5ZDt6v1qA"
+        }
+    ],
+    "region": {
+        "center": {
+            "latitude": 40.6035553265306,
+            "longitude": -74.280487
+        }
+    },
+    "total": 37
+}
