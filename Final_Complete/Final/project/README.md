@@ -1,5 +1,7 @@
 <h1>Bytes</h1>
 
+To run, download the entire project folder and run run.py using Python3.x. This will open a server on localhost:5000, which can be interfaced with through a browser.
+
 <h2>Inspiration</h2>
 "I never actually know if I'm getting a good deal anymore..."
 
