@@ -23,7 +23,7 @@ Bytes is written in Python, using the Yelp API. GeoPy was used to get location; 
 
 The front end was written using HTML and CSS to provide a web interface. JavaScript and Flask were used to integrate front end (mostly user input) with the back end. Bootstrap was used for a simple, sleek interface and compatibility with mobile devices.
 
-<h2>Challenges we ran into</h2>
+<h2>Challenges I ran into</h2>
 The greatest challenge by far has been using Flask to tie the front and back ends together, with the largest obstacle being getting user input into the back end, and then taking the results from the back end and outputting it to the front end. In the end, I used Python to return a dynamically generated HTML page containing all of the results. I know you have things like innerHtml to change the page content, but because the true issue lied in returning info from Python to JS, I opted to create the page in Python instead.
 
 AWS is the absolute bane of my existence. It literally just will not work. A few times I got it to display Bytes, but upon refreshing the page or making any changes to the most meaningless code, or even adding a COMMENT or NOTHING it broke everything and I couldn't get the page up again. I've given up and, as such, Bytes is a localhost:5000 only application.
